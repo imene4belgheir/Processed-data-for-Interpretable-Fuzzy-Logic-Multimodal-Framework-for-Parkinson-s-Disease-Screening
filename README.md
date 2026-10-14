@@ -4,15 +4,6 @@ Processed data accompanying the manuscript **"An Interpretable Fuzzy-Logic Multi
 
 The study classifies Parkinson's disease (PD) from three accessible digital biomarkers (sustained-vowel speech, keystroke dynamics and spiral drawings) and combines the modality-specific scores with a fuzzy-logic late-fusion module. Because the three public datasets do not share participants, fusion was evaluated with 100 class-matched virtual-patient simulations. These data therefore do not represent patient-level multimodal measurements.
 
-## Repository contents
-
-> Edit this list to match your actual files.
-
-- `splits/`: train/test split definitions for each modality
-- `features/`: processed feature tables used for model training and evaluation
-- `scores/`: predicted scores of the unimodal classifiers on the held-out test sets
-- `results/`: result tables (unimodal metrics and fuzzy-fusion results over the 100 simulations)
-
 ## Original data sources
 
 **This repository does not contain the original datasets.** Please download them from their original sources and cite them if you use them.
